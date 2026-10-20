@@ -1,0 +1,8 @@
+extends: ssl_uts01.yaml
+model:
+  d_model: 768
+  n_layers: 8
+  n_heads: 12
+training:
+  batch_size: 128
+output_dir: results/runs/ssl_large_UTS01_seed17

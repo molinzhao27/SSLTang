@@ -1,0 +1,31 @@
+# Protocol v2, Phase A: strong linear and frozen-encoder readouts (FUTURE_WORK.md §5).
+# Every arm shares target IDs, label subsets, the alpha grid and the selection rule.
+protocol: ssltang-v2
+data:
+  manifest: data/semantic/UTS01/semantic_manifest.json
+  window: 32
+  stride: 4
+  target_phase: 0        # target_tr % 4 == 0 reproduces the archived lag-3 target clock
+  cutoffs: [3, 4]        # 6 s and 8 s response cutoffs; targets must be eligible for both
+labels:
+  fractions: [1.0, 0.25, 0.1, 0.05, 0.01]
+  subset_seed: 2718
+  block_tr: 64
+  allocation: block
+readout:
+  # Alphas: numpy.logspace(-1, 7, 17), fixed in src/readout.py (ALPHAS).
+  # Selection: highest validation session-macro mean feature correlation.
+  pca_components: [128, 512, 2048]
+  pca_scalings: [unwhitened, whitened]
+  encoder_layers: [1, 2, 3, 4]
+encoders:
+  seeds: [17, 23, 47]
+  model_config: configs/base.yaml          # random encoders: seed_everything(seed); FmriEncoder(model)
+  ssl_run_template: results/runs/ssl_UTS01_seed{seed}
+  ssl_checkpoints: {ssl_best: encoder_best.pt, ssl_final: encoder_latest.pt}
+evaluation:
+  exclusions: [10, 32]
+  shift_min_tr: 40
+  shift_draws: 2000
+  shift_seed: 0
+output_dir: results/v2/phase_a

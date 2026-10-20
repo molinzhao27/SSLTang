@@ -1,0 +1,9 @@
+# Phase B reconstruction arm: the archived objective under the shared v2 SSL harness.
+extends: ../ssl_uts01.yaml
+data:
+  num_workers: 4
+ssl:
+  objective: reconstruction
+  mask_rng: dedicated     # identical windows, order and masks in both objectives
+  diagnostics: true
+output_dir: results/v2/ssl/recon_UTS01_seed17

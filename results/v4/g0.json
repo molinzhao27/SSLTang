@@ -1,0 +1,117 @@
+{
+  "protocol": "ssltang-v4",
+  "stage": "g0",
+  "code_sha256": "fa31994acad1bac48f515b8c80976a027bd17eeb979732488e51ca8fcf883a36",
+  "a": {
+    "UTS01": {
+      "W0": {
+        "alpha_v4": 316227.7660168379,
+        "alpha_s12": 316227.7660168379,
+        "gamma_v4": 1.0,
+        "gamma_s12": 1.0,
+        "val_v4": 0.11930442131557428,
+        "val_s12": 0.11930442131557428,
+        "rel_diff": 0.0,
+        "current_code": true,
+        "passed": true
+      },
+      "W1": {
+        "alpha_v4": 1000000.0,
+        "alpha_s12": 1000000.0,
+        "gamma_v4": 2.0,
+        "gamma_s12": 2.0,
+        "val_v4": 0.1701538448042114,
+        "val_s12": 0.1701538448042114,
+        "rel_diff": 0.0,
+        "current_code": true,
+        "passed": true
+      }
+    },
+    "UTS02": {
+      "W0": {
+        "alpha_v4": 316227.7660168379,
+        "alpha_s12": 316227.7660168379,
+        "gamma_v4": 1.0,
+        "gamma_s12": 1.0,
+        "val_v4": 0.1315077190668178,
+        "val_s12": 0.1315077190668178,
+        "rel_diff": 0.0,
+        "current_code": true,
+        "passed": true
+      },
+      "W1": {
+        "alpha_v4": 1000000.0,
+        "alpha_s12": 1000000.0,
+        "gamma_v4": 2.0,
+        "gamma_s12": 2.0,
+        "val_v4": 0.19707681329173282,
+        "val_s12": 0.19707681329173282,
+        "rel_diff": 0.0,
+        "current_code": true,
+        "passed": true
+      }
+    },
+    "UTS03": {
+      "W0": {
+        "alpha_v4": 316227.7660168379,
+        "alpha_s12": 316227.7660168379,
+        "gamma_v4": 1.0,
+        "gamma_s12": 1.0,
+        "val_v4": 0.14762161685615055,
+        "val_s12": 0.14762161685615055,
+        "rel_diff": 0.0,
+        "current_code": true,
+        "passed": true
+      },
+      "W1": {
+        "alpha_v4": 1000000.0,
+        "alpha_s12": 1000000.0,
+        "gamma_v4": 2.0,
+        "gamma_s12": 2.0,
+        "val_v4": 0.2075499932950367,
+        "val_s12": 0.2075499932950367,
+        "rel_diff": 0.0,
+        "current_code": true,
+        "passed": true
+      }
+    }
+  },
+  "tests": {
+    "returncode": 0,
+    "summary": [
+      "185 passed, 2 skipped in 5.63s"
+    ]
+  },
+  "c": {
+    "pca": "pilot",
+    "spearman": 0.5394558549937974,
+    "pilot": 0.5394558549937974,
+    "alpha": 1000000.0,
+    "abs_diff": 0.0,
+    "passed": true
+  },
+  "c_production": {
+    "pca": "production",
+    "spearman": 0.5395410997225968,
+    "pilot": 0.5394558549937974,
+    "alpha": 1000000.0,
+    "abs_diff": 8.524472879933853e-05,
+    "passed": false
+  },
+  "d": {
+    "passed": true,
+    "summary": {
+      "max_mse_ratio": {
+        "value": 0.8971065308680162,
+        "n": 2000,
+        "R_P": 0.1
+      },
+      "max_abs_kappa_error": {
+        "value": 0.004055931465993479,
+        "n": 100,
+        "R_P": 0.1
+      }
+    }
+  },
+  "passed": true
+}

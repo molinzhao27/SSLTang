@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssltang"
+version = "0.1.0"
+description = "Self-Supervised Learning for fMRI temporal neural encoder"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.4.0",
+    "numpy>=2.0.0",
+    "scipy>=1.14.0",
+    "h5py>=3.10.0",
+    "pyyaml>=6.0.0",
+    "requests>=2.31.0",
+    "boto3>=1.30.0",
+    "transformers>=4.40.0,<5",
+    "safetensors>=0.4.0",
+    "matplotlib>=3.8.0",
+    "psutil>=5.9.0",
+    "tqdm>=4.66.0",
+    "nibabel>=5.4.2",
+    "pandas>=3.0.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

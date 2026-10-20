@@ -1,0 +1,7 @@
+extends: semantic_uts01.yaml
+evaluation:
+  manifest: data/transfer/UTS01/manifest.json
+  checkpoint: results/runs/random_UTS01_fraction1_seed17/best.pt
+  split: transfer
+  exclusion_tr: 10
+  output_dir: results/transfer

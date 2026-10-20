@@ -1,0 +1,4 @@
+extends: ssl_uts01.yaml
+ssl:
+  mode: joint
+output_dir: results/runs/ssl_joint_UTS01_seed17

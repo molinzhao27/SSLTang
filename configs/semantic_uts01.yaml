@@ -1,0 +1,7 @@
+extends: base.yaml
+data:
+  manifest: data/semantic/UTS01/semantic_manifest.json
+training:
+  epochs: 40
+  lr: 0.0001
+output_dir: results/runs/random_UTS01_fraction1_seed17

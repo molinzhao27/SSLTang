@@ -1,0 +1,33 @@
+{
+  "windows": 829,
+  "mask": {
+    "mode": "temporal",
+    "target_fraction": 0.25,
+    "span_length": 8,
+    "guard_length": 4,
+    "feature_group_size": 64
+  },
+  "by_seed": {
+    "17": {
+      "train_mean": 0.8764798077022781,
+      "window_mean": 1.0205125041306469,
+      "interpolation": 1.452512141624417,
+      "core_elements": 11241240
+    },
+    "23": {
+      "train_mean": 0.840928690683882,
+      "window_mean": 0.9814440234320096,
+      "interpolation": 1.3839643848683787,
+      "core_elements": 11241240
+    },
+    "47": {
+      "train_mean": 0.8469555986970188,
+      "window_mean": 0.9831711019310231,
+      "interpolation": 1.4606392698614654,
+      "core_elements": 11241240
+    }
+  },
+  "mean_train_mean": 0.8547880323610597,
+  "mean_window_mean": 0.9950425431645599,
+  "mean_interpolation": 1.4323719321180872
+}

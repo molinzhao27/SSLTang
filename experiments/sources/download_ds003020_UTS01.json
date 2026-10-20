@@ -1,0 +1,1059 @@
+{
+  "dataset": "ds003020",
+  "subject": "UTS01",
+  "mode": "train",
+  "source": "https://s3.amazonaws.com/openneuro.org",
+  "objects": [
+    {
+      "key": "ds003020/README",
+      "size": 1800,
+      "etag": "f7b16e60779eebf9708d9ecf126f9cf9"
+    },
+    {
+      "key": "ds003020/dataset_description.json",
+      "size": 1233,
+      "etag": "1b3382b1ea2bd7c762e0fbfcd80e2fbc"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/adollshouse.TextGrid",
+      "size": 872355,
+      "etag": "24e95f7dd974af6644c139b55a0d8f35"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/adventuresinsayingyes.TextGrid",
+      "size": 1245096,
+      "etag": "f8f6cf3301e48617d00270db60ac14e4"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/afatherscover.TextGrid",
+      "size": 682088,
+      "etag": "4c27453ab3c0dceef158037d00514d56"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/againstthewind.TextGrid",
+      "size": 456043,
+      "etag": "5fb3065d74794455f52a910a050a3b65"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/alternateithicatom.TextGrid",
+      "size": 1218861,
+      "etag": "cb0a9c7427893543cd171efad0da1f10"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/avatar.TextGrid",
+      "size": 849966,
+      "etag": "3deb14d4e18cb457cd76324c5ec64806"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/backsideofthestorm.TextGrid",
+      "size": 1055692,
+      "etag": "b3f04b7dae504905aaa03c44160ed1ea"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/becomingindian.TextGrid",
+      "size": 1441713,
+      "etag": "b25fcd8a178582470b191e01d44c4fe4"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/beneaththemushroomcloud.TextGrid",
+      "size": 1092071,
+      "etag": "b0fa074ac91b7925023b66e1f6eb8473"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/birthofanation.TextGrid",
+      "size": 910531,
+      "etag": "8ea0da18bece2a47993952188f42a877"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/bluehope.TextGrid",
+      "size": 1153885,
+      "etag": "285856bac872db55861cc4febbfef631"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/breakingupintheageofgoogle.TextGrid",
+      "size": 1861720,
+      "etag": "1209728d5f6f770d424502f7d0fc901d"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/buck.TextGrid",
+      "size": 885614,
+      "etag": "a9f0cd6cd06062a533828e8734cf2dd4"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/catfishingstrangerstofindmyself.TextGrid",
+      "size": 871470,
+      "etag": "b9c1401e95098adb1548e8fe7936d9c8"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/cautioneating.TextGrid",
+      "size": 868219,
+      "etag": "7023d165e9bb0cd7cf14c6f9a1a666e2"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/christmas1940.TextGrid",
+      "size": 688064,
+      "etag": "1a60405a3e5033e93a6976ccca93a8af"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/cocoonoflove.TextGrid",
+      "size": 1095835,
+      "etag": "d51d31236d3a0ad67f1cfc2e68e49df9"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/comingofageondeathrow.TextGrid",
+      "size": 1221813,
+      "etag": "871509def4d4f90033d596e0c0f230ab"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/exorcism.TextGrid",
+      "size": 532973,
+      "etag": "64ed10f97f2773f30d32608cc74ad012"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/eyespy.TextGrid",
+      "size": 1274527,
+      "etag": "30f2bb737bb82b72cb5bf42635a557a1"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/firetestforlove.TextGrid",
+      "size": 1213369,
+      "etag": "46f37e35e2fe4295284d27aa2136d94d"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/food.TextGrid",
+      "size": 1141020,
+      "etag": "e3f4aa0b8cf1911686a593f8364a90f1"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/forgettingfear.TextGrid",
+      "size": 720305,
+      "etag": "140ede2ede06e5ea9b319dd4543db156"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/fromboyhoodtofatherhood.TextGrid",
+      "size": 1451093,
+      "etag": "59f6e54d3a87153fe14131218e295cde"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/gangstersandcookies.TextGrid",
+      "size": 842047,
+      "etag": "17b6f8b0be1ea9af3f5fbb7c4d977e61"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/goingthelibertyway.TextGrid",
+      "size": 1334859,
+      "etag": "04a930c49c8da661a0b320b3a20226d7"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/goldiethegoldfish.TextGrid",
+      "size": 920533,
+      "etag": "2ddd61b7575d3e4ba6b3da0343be122d"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/golfclubbing.TextGrid",
+      "size": 628550,
+      "etag": "d08d847f236278b0bb86ae849bb48fdb"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/gpsformylostidentity.TextGrid",
+      "size": 945698,
+      "etag": "d65f5859e3aa880ba7973b7b312b2544"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/hangtime.TextGrid",
+      "size": 1032382,
+      "etag": "0a16d19c508758912e19a8154c82e04c"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/haveyoumethimyet.TextGrid",
+      "size": 1625041,
+      "etag": "9878a4b282d77e1f470c7aad6ac134a6"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/howtodraw.TextGrid",
+      "size": 1130521,
+      "etag": "20b0575030e4542ab69cad3c501f2bda"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/ifthishaircouldtalk.TextGrid",
+      "size": 977223,
+      "etag": "e5378e3de9c15b5a006b90ca05795aab"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/inamoment.TextGrid",
+      "size": 554322,
+      "etag": "850b1b4a12b7158f1512b9bf06da9580"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/itsabox.TextGrid",
+      "size": 911758,
+      "etag": "d55686e4de18f0f5dd690fe468bb6da6"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/jugglingandjesus.TextGrid",
+      "size": 495988,
+      "etag": "cbd59d831988d75d7d1118f59f8b02d4"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/kiksuya.TextGrid",
+      "size": 939713,
+      "etag": "e0494c3ecd4ec3a9937bb85f40046a22"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/leavingbaghdad.TextGrid",
+      "size": 1061113,
+      "etag": "42363b342f0bb47e33d6febb04354dc9"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/legacy.TextGrid",
+      "size": 373948,
+      "etag": "6a5bd387448105b0c85c4236538c7579"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/life.TextGrid",
+      "size": 273565,
+      "etag": "2dc46132f2eb7ac4ff2d94850cbb4db5"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/lifeanddeathontheoregontrail.TextGrid",
+      "size": 1359659,
+      "etag": "5d7a6b8792f0078b60ac2cf05007f233"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/lifereimagined.TextGrid",
+      "size": 978516,
+      "etag": "8c0e9ad06d8f39a9ee889a33ecf5706d"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/listo.TextGrid",
+      "size": 1242098,
+      "etag": "481efcd74da2ded9c9a70d7eaf5109b2"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/mayorofthefreaks.TextGrid",
+      "size": 1730451,
+      "etag": "260716cfa3219ebb67c7f9622c2e9d7b"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/metsmagic.TextGrid",
+      "size": 794114,
+      "etag": "74079bf30357085585240653c6ff8b35"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/mybackseatviewofagreatromance.TextGrid",
+      "size": 1059569,
+      "etag": "e9dad84ec4905de9a84ff58c1f50212f"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/myfathershands.TextGrid",
+      "size": 513560,
+      "etag": "cce44591fdc6b1a96c97557e3b4e4143"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/myfirstdaywiththeyankees.TextGrid",
+      "size": 1437249,
+      "etag": "1da8a06949ff30eb519c659c5ba53c9c"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/naked.TextGrid",
+      "size": 1693425,
+      "etag": "83973e898f27b4c86b34021f28aa4b5f"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/notontheusualtour.TextGrid",
+      "size": 787532,
+      "etag": "5cb17328777a8ef2afa54acc2e2df12f"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/odetostepfather.TextGrid",
+      "size": 1397379,
+      "etag": "472380ee4e1b7bf3708d8021e21da7ef"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/onlyonewaytofindout.TextGrid",
+      "size": 1045336,
+      "etag": "4bce28d3e6501023f4f1d557f4e8ee57"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/penpal.TextGrid",
+      "size": 879660,
+      "etag": "d85d981979ead89c52d1af1cf3f21557"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/quietfire.TextGrid",
+      "size": 1090011,
+      "etag": "cfad927c141af388e44353ae9c93f0c0"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/reachingoutbetweenthebars.TextGrid",
+      "size": 880816,
+      "etag": "5d9adfbae9d01229375fdc07c73f2589"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/shoppinginchina.TextGrid",
+      "size": 981318,
+      "etag": "d2cf341dc2e22d8643a7a921fe24a8d0"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/singlewomanseekingmanwich.TextGrid",
+      "size": 835201,
+      "etag": "9ab0f41dd5c299bda9099262a69975c2"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/sloth.TextGrid",
+      "size": 1384516,
+      "etag": "3a9ae6f957a06449cf6ad1ed7ca00b06"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/souls.TextGrid",
+      "size": 1112605,
+      "etag": "42f8529c5ae19875c3872f7ab78b0bcf"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/stagefright.TextGrid",
+      "size": 1090110,
+      "etag": "5b5bb45acfcc160be7937472dabe169e"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/stumblinginthedark.TextGrid",
+      "size": 1462308,
+      "etag": "f90e1446c257820e4cc9648a0759a032"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/superheroesjustforeachother.TextGrid",
+      "size": 850889,
+      "etag": "eb418c4a64d9fb171f9ca3cbd74e990d"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/sweetaspie.TextGrid",
+      "size": 386762,
+      "etag": "5fb5310ddb533972a96e1e93e4de9d3b"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/swimmingwithastronauts.TextGrid",
+      "size": 1169848,
+      "etag": "2b180494763c5ed5299671d3ccbf4f92"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/thatthingonmyarm.TextGrid",
+      "size": 1137714,
+      "etag": "6079021d477179df95332f86858be8f2"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/theadvancedbeginner.TextGrid",
+      "size": 866518,
+      "etag": "b591a6e50a7bea41a655f90d27342533"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/theclosetthatateeverything.TextGrid",
+      "size": 1042425,
+      "etag": "483376bce274a58b83a6dddbf63e693a"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/thecurse.TextGrid",
+      "size": 1128756,
+      "etag": "b071ca2f3d32b65efb4078e4faf70cb9"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/thefreedomridersandme.TextGrid",
+      "size": 871170,
+      "etag": "8a5227386a56e308405d13adbc4d7429"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/theinterview.TextGrid",
+      "size": 578419,
+      "etag": "06854ce0ff778266d754308978544154"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/thepostmanalwayscalls.TextGrid",
+      "size": 1213306,
+      "etag": "1542941f1973481eef5da4aeaaf0d0af"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/theshower.TextGrid",
+      "size": 810036,
+      "etag": "61c53cf55f28b66e097c395bcfb0cc5f"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/thetiniestbouquet.TextGrid",
+      "size": 518171,
+      "etag": "d0606ed0f02dc17565ac6ba2c64740a3"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/thetriangleshirtwaistconnection.TextGrid",
+      "size": 777577,
+      "etag": "b4781a04414e2cf3fda4f1f301e6aac3"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/threemonths.TextGrid",
+      "size": 1078237,
+      "etag": "ca81893c981faa3c968b8731f102f35b"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/thumbsup.TextGrid",
+      "size": 1661681,
+      "etag": "3bd731ab0f996c3a5ab3a0ca1e118bac"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/tildeath.TextGrid",
+      "size": 1248864,
+      "etag": "511d1e6e6d1c067d8daf5a5700c8c337"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/treasureisland.TextGrid",
+      "size": 972739,
+      "etag": "d1b4cc1a84fa3dff700791817932f664"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/undertheinfluence.TextGrid",
+      "size": 956309,
+      "etag": "1019782e5917560016e4649c83e4fe19"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/vixenandtheussr.TextGrid",
+      "size": 1168364,
+      "etag": "90e0444b054d424fa89e9a56d0d2bac2"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/waitingtogo.TextGrid",
+      "size": 924973,
+      "etag": "af90c78d21319fd527d065b464a22574"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/whenmothersbullyback.TextGrid",
+      "size": 905666,
+      "etag": "776bdff9ce2c32a1ff775a777d21afcf"
+    },
+    {
+      "key": "ds003020/derivatives/TextGrids/wildwomenanddancingqueens.TextGrid",
+      "size": 652159,
+      "etag": "53b3a755186c14e9b016d69452e7b8df"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/adollshouse.hf5",
+      "size": 156412976,
+      "etag": "d6067a4446b7efe7f60e376a15781506"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/adventuresinsayingyes.hf5",
+      "size": 253764176,
+      "etag": "ff65c47098538e6c8915ab1cbffab24b"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/afatherscover.hf5",
+      "size": 202492544,
+      "etag": "ab3652ff9abeeaa57d4308a75024782e"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/againstthewind.hf5",
+      "size": 110333408,
+      "etag": "59448c168509b884d676cfbe0a76270f"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/alternateithicatom.hf5",
+      "size": 222611792,
+      "etag": "1108be969f294b29603978b4163f9cfd"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/avatar.hf5",
+      "size": 238187984,
+      "etag": "5f3fbd6164110b4b0df0d2483d9e3ed5"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/backsideofthestorm.hf5",
+      "size": 223909808,
+      "etag": "e50ba1d1fc4f0a3d43f5521611e6ebae"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/becomingindian.hf5",
+      "size": 251817152,
+      "etag": "0bff2c00fb4fba8484225ab558c4a130"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/beneaththemushroomcloud.hf5",
+      "size": 221962784,
+      "etag": "b4d40452d9fc5efb50416acb6c5a4f39"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/birthofanation.hf5",
+      "size": 171340160,
+      "etag": "7f9649bf2baa758748d4643352849f09"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/bluehope.hf5",
+      "size": 265446320,
+      "etag": "76b210dba816cff83d8f2c4e181d80d1"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/breakingupintheageofgoogle.hf5",
+      "size": 338135216,
+      "etag": "6c6791302c4b37230e983abf8630cec2"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/buck.hf5",
+      "size": 215472704,
+      "etag": "59a86acac8cc778be28cefdfb41d16aa"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/catfishingstrangerstofindmyself.hf5",
+      "size": 211578656,
+      "etag": "b178a3b9f719804b702cc9a958018da1"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/cautioneating.hf5",
+      "size": 181075280,
+      "etag": "db97bf949db7cea833634d5d3d6ed4f8"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/christmas1940.hf5",
+      "size": 157710992,
+      "etag": "5416fce0d4769b0b42891d7f8089aa49"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/cocoonoflove.hf5",
+      "size": 278426480,
+      "etag": "63230548f784281336f8bedadffedaf8"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/comingofageondeathrow.hf5",
+      "size": 226505840,
+      "etag": "e24c29cf75ada9e26ce171e9faf0787c"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/exorcism.hf5",
+      "size": 303088784,
+      "etag": "fb1fe4e261e98ff327482f6f7e83bb2f"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/eyespy.hf5",
+      "size": 245976080,
+      "etag": "ce6378660120e3e96d4151d5d41d9f89"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/firetestforlove.hf5",
+      "size": 206386592,
+      "etag": "68c033d4357e9929832998b54ef4e0be"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/food.hf5",
+      "size": 240135008,
+      "etag": "c5094ee61b2c0a7c67cb8d3ebed8cc60"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/forgettingfear.hf5",
+      "size": 153816944,
+      "etag": "730b90282bcd106b4e92d45b19967fae"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/fromboyhoodtofatherhood.hf5",
+      "size": 225856832,
+      "etag": "0ec5aad559beab70eaeca8363352e7b7"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/gangstersandcookies.hf5",
+      "size": 166148096,
+      "etag": "ea6b09627767354234214191c0b5f7b7"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/goingthelibertyway.hf5",
+      "size": 255711200,
+      "etag": "040b8f644d1ce174314eacbed5abf335"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/goldiethegoldfish.hf5",
+      "size": 205737584,
+      "etag": "a32c399de993d440e271d62413054cfe"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/golfclubbing.hf5",
+      "size": 130452656,
+      "etag": "ede88408491e41ba478667a76f8c0c02"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/gpsformylostidentity.hf5",
+      "size": 211578656,
+      "etag": "75e652cbfa8371162747d8ebb0598e51"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/hangtime.hf5",
+      "size": 210280640,
+      "etag": "fbb43939308f10f3ff8ff425029e73db"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/haveyoumethimyet.hf5",
+      "size": 321910016,
+      "etag": "76a3508572c13496537fca98b44f4d29"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/howtodraw.hf5",
+      "size": 229750880,
+      "etag": "7aa33eff0f6a27854b5aed1894b45ba7"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/ifthishaircouldtalk.hf5",
+      "size": 161605040,
+      "etag": "0141cc042c2771942efbb7240b4befe5"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/inamoment.hf5",
+      "size": 133048688,
+      "etag": "7f00481c41b7e47432baef794c2b7f73"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/itsabox.hf5",
+      "size": 230399888,
+      "etag": "a851e14b3dc8336e46a79f05c0dce1e6"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/jugglingandjesus.hf5",
+      "size": 125260592,
+      "etag": "25346572686f50615e9546ce753f7c71"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/kiksuya.hf5",
+      "size": 215472704,
+      "etag": "86d40867286f455f47b5297c2153dd5d"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/leavingbaghdad.hf5",
+      "size": 212227664,
+      "etag": "f4e09dba4afd2b275dbbc7daf3eceed0"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/legacy.hf5",
+      "size": 259605248,
+      "etag": "64b98d5517a20c8b8d626c025276dd8f"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/life.hf5",
+      "size": 279075488,
+      "etag": "8628c8266a60e75656cae4c9b1995268"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/lifeanddeathontheoregontrail.hf5",
+      "size": 234293936,
+      "etag": "9c7fe44c8e9ce55d79ea7f61bea3a914"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/lifereimagined.hf5",
+      "size": 212227664,
+      "etag": "44752df9e99c9224832851c0536b627b"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/listo.hf5",
+      "size": 233644928,
+      "etag": "7733176abbc29e508bf522078ac6429c"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/mayorofthefreaks.hf5",
+      "size": 308280848,
+      "etag": "e08838a8424f09e2cc1a42b6744b1692"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/metsmagic.hf5",
+      "size": 147975872,
+      "etag": "e2d9242b9080bebe5a30648b9e5765f2"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/mybackseatviewofagreatromance.hf5",
+      "size": 249221120,
+      "etag": "c6a83e7fde80147498c81b9e0d515271"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/myfathershands.hf5",
+      "size": 110333408,
+      "etag": "aa1cf7f2687eee8b6d217f2189a51334"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/myfirstdaywiththeyankees.hf5",
+      "size": 232346912,
+      "etag": "0813597e7afcb39fb3de479e783a4640"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/naked.hf5",
+      "size": 273883424,
+      "etag": "72968b80c24a1af66fc2c85598dd649d"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/notontheusualtour.hf5",
+      "size": 159009008,
+      "etag": "093441432f31634ec5854ce4f5f9c0dd"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/odetostepfather.hf5",
+      "size": 262201280,
+      "etag": "dc5d63e25e363a4b5673d47ef0a96887"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/onlyonewaytofindout.hf5",
+      "size": 247923104,
+      "etag": "37eea7b53400d641423438ba4c6fb80b"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/penpal.hf5",
+      "size": 165499088,
+      "etag": "0cd02ec25b8bcc9f60dce83e066b0803"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/quietfire.hf5",
+      "size": 295300688,
+      "etag": "a22fdcf566abe239e9aa2498961e98de"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/reachingoutbetweenthebars.hf5",
+      "size": 192108416,
+      "etag": "463b46597ea6936aaabd67450e6484dd"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/shoppinginchina.hf5",
+      "size": 218717744,
+      "etag": "9c1cc4df24c5e2f97e1acd3e7fd37882"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/singlewomanseekingmanwich.hf5",
+      "size": 192757424,
+      "etag": "1ff51ca9d5a9873cd20519f9a3532f3c"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/sloth.hf5",
+      "size": 283618544,
+      "etag": "09e0223055e7979c23383088e51682d7"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/souls.hf5",
+      "size": 230399888,
+      "etag": "e7ecedfcc2e378f760447a49fc3940dd"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/stagefright.hf5",
+      "size": 190161392,
+      "etag": "5697dcafe014586de432a1d1a46f89a2"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/stumblinginthedark.hf5",
+      "size": 317366960,
+      "etag": "1de403e0c38f0668cc4d277b9e93e275"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/superheroesjustforeachother.hf5",
+      "size": 210929648,
+      "etag": "62031fb86d6f79f6d5df4c842209bc14"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/sweetaspie.hf5",
+      "size": 101896304,
+      "etag": "58f51a328f264f80cfed6dc69b1676e2"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/swimmingwithastronauts.hf5",
+      "size": 249870128,
+      "etag": "760718aacf61cbb24ec7b9f1d3942818"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/thatthingonmyarm.hf5",
+      "size": 281671520,
+      "etag": "b7eb07ca2d134f1fa4feae69bdcc3de3"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/theadvancedbeginner.hf5",
+      "size": 206386592,
+      "etag": "6e66d02041689e5b9790a7f40e5a305e"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/theclosetthatateeverything.hf5",
+      "size": 203790560,
+      "etag": "e8252943e45fa2f960d98bbf5d7f6cde"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/thecurse.hf5",
+      "size": 264148304,
+      "etag": "18508816f53f61f07d3846e4341b2df6"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/thefreedomridersandme.hf5",
+      "size": 216770720,
+      "etag": "342f1a995c452f38171d7c890e9fb72d"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/theinterview.hf5",
+      "size": 143432816,
+      "etag": "fb17cb93e1b55c4ecc53fe809dfa5756"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/thepostmanalwayscalls.hf5",
+      "size": 294651680,
+      "etag": "0c91d674008d4fdf230c31105572fe1b"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/theshower.hf5",
+      "size": 254413184,
+      "etag": "92cb2c35bbae58ec743ff17f20cb200f"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/thetiniestbouquet.hf5",
+      "size": 110982416,
+      "etag": "12ff524b5bec5239afefa02ede07bb92"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/thetriangleshirtwaistconnection.hf5",
+      "size": 131101664,
+      "etag": "b79f67299a1c8e209dc58c6386638c2f"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/threemonths.hf5",
+      "size": 229101872,
+      "etag": "3e7dfccdcc429f9b6c520d5ec6b8e08f"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/thumbsup.hf5",
+      "size": 268691360,
+      "etag": "8e8d9ed8e49da9bb84ca9fcec23b2d49"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/tildeath.hf5",
+      "size": 209631632,
+      "etag": "472ec049ff4b0f577a6409343075cc17"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/treasureisland.hf5",
+      "size": 255711200,
+      "etag": "fe9de13ef57575ed1d353a2ae03e9ae3"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/undertheinfluence.hf5",
+      "size": 197300480,
+      "etag": "6fab9f3daf7a9870e34fcf2af6e37105"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/vixenandtheussr.hf5",
+      "size": 253764176,
+      "etag": "0d638a81fb3251b1a6d7544166a75d98"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/waitingtogo.hf5",
+      "size": 226505840,
+      "etag": "3af0926e7b8e0a8de2350d49d70377a3"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/whenmothersbullyback.hf5",
+      "size": 199247504,
+      "etag": "97585099cc9b2e7f42885f8ba5df0c43"
+    },
+    {
+      "key": "ds003020/derivatives/preprocessed_data/UTS01/wildwomenanddancingqueens.hf5",
+      "size": 122664560,
+      "etag": "5f9ac1769501b78a68a234023a6938fb"
+    },
+    {
+      "key": "ds003020/derivatives/pycortex-db/UTS01/transforms/UTS01_auto/mask_thick.nii.gz",
+      "size": 14622,
+      "etag": "76eda19b0d784cf95fda0e1f33e2035e"
+    },
+    {
+      "key": "ds003020/derivatives/respdict.json",
+      "size": 2005,
+      "etag": "eaacf38555314ebb063986de2e551977"
+    },
+    {
+      "key": "ds003020/derivatives/subject_xfms.json",
+      "size": 184,
+      "etag": "aec5c2cf7d76feb1e819b32a9388b26a"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-1/func/sub-UTS01_ses-1_task-CategoryLocalizer1_run-1_bold.json",
+      "size": 2786,
+      "etag": "bf61cdd30e5bca94c442179524c32b69"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-1/func/sub-UTS01_ses-1_task-CategoryLocalizer1_run-2_bold.json",
+      "size": 2766,
+      "etag": "0e9ca507c9a31292b2ef1d5034353200"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-1/func/sub-UTS01_ses-1_task-CategoryLocalizer2_run-1_bold.json",
+      "size": 2768,
+      "etag": "f6826acd121fcf8fb770ed731f1c1615"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-1/func/sub-UTS01_ses-1_task-CategoryLocalizer2_run-2_bold.json",
+      "size": 2767,
+      "etag": "f056d768acde73fd1911eb7d51bdc490"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-1/func/sub-UTS01_ses-1_task-CategoryLocalizer3_run-1_bold.json",
+      "size": 2767,
+      "etag": "35a3bdfc45153bf90264ac11f6206971"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-1/func/sub-UTS01_ses-1_task-CategoryLocalizer3_run-2_bold.json",
+      "size": 2767,
+      "etag": "4c6c209dd6a5afce28eb9fa441c29cf9"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-1/func/sub-UTS01_ses-1_task-MotorLocalizer_run-1_bold.json",
+      "size": 2756,
+      "etag": "6a73f3a30239bc830885a0b9e2c078a6"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-1/func/sub-UTS01_ses-1_task-MotorLocalizer_run-2_bold.json",
+      "size": 2757,
+      "etag": "48a07237d999bb81cb4c50ad14d8ba28"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-2/func/sub-UTS01_ses-2_task-alternateithicatom_bold.json",
+      "size": 2791,
+      "etag": "ffb8503849a2856bb073144c3dbe1011"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-2/func/sub-UTS01_ses-2_task-avatar_bold.json",
+      "size": 2751,
+      "etag": "dac40ab6ebebe73cf016806895955e3f"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-2/func/sub-UTS01_ses-2_task-legacy_bold.json",
+      "size": 2769,
+      "etag": "fdadf940c98becc6fc46350a82bf8764"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-2/func/sub-UTS01_ses-2_task-odetostepfather_bold.json",
+      "size": 2788,
+      "etag": "496de55985fc785721a3cbb437c2134b"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-2/func/sub-UTS01_ses-2_task-souls_bold.json",
+      "size": 2749,
+      "etag": "3b854da10804570aeed61a4090576046"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-2/func/sub-UTS01_ses-2_task-wheretheressmoke_run-1_bold.json",
+      "size": 2790,
+      "etag": "e75e6b24c75a9173673bf14f4d99465f"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-3/func/sub-UTS01_ses-3_task-howtodraw_bold.json",
+      "size": 2775,
+      "etag": "02d070b31fb18447d0e5fe5ced822c96"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-3/func/sub-UTS01_ses-3_task-life_bold.json",
+      "size": 2768,
+      "etag": "f0e7b9d9282cfeaf84cd50d78bc98e38"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-3/func/sub-UTS01_ses-3_task-myfirstdaywiththeyankees_bold.json",
+      "size": 2805,
+      "etag": "8313e1b1b366fa445c0b935059ef1903"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-3/func/sub-UTS01_ses-3_task-naked_bold.json",
+      "size": 2753,
+      "etag": "7566682137f7d0590f2d83d2e7117f11"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-3/func/sub-UTS01_ses-3_task-undertheinfluence_bold.json",
+      "size": 2790,
+      "etag": "21e2fd73f60cea7a42eab792edac2f7c"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-3/func/sub-UTS01_ses-3_task-wheretheressmoke_run-2_bold.json",
+      "size": 2781,
+      "etag": "8fba30554cd8a369b3e53bcddd10a5fa"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-4/func/sub-UTS01_ses-4_task-exorcism_bold.json",
+      "size": 2774,
+      "etag": "53ef5cfab57fab53b88df5e6339a6f21"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-4/func/sub-UTS01_ses-4_task-fromboyhoodtofatherhood_bold.json",
+      "size": 2802,
+      "etag": "6679ae5e9bdc83dd14fdd0d32b34e308"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-4/func/sub-UTS01_ses-4_task-sloth_bold.json",
+      "size": 2749,
+      "etag": "c70e79ffd99ea036b3a446cf37fc31c7"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-4/func/sub-UTS01_ses-4_task-stagefright_bold.json",
+      "size": 2761,
+      "etag": "17046cdc185b5abc10c3f207c544bf5b"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-4/func/sub-UTS01_ses-4_task-tildeath_bold.json",
+      "size": 2757,
+      "etag": "6ce80b58a3ae05bcdbe659b20492fa4c"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-4/func/sub-UTS01_ses-4_task-wheretheressmoke_run-3_bold.json",
+      "size": 2789,
+      "etag": "50a38a4e58a5e052460fdbf80bf481a6"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-5/func/sub-UTS01_ses-5_task-adollshouse_bold.json",
+      "size": 2786,
+      "etag": "475da59125e79c45a61b6252b146ebb6"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-5/func/sub-UTS01_ses-5_task-adventuresinsayingyes_bold.json",
+      "size": 2788,
+      "etag": "2208955a229bd00935ab49af2694c298"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-5/func/sub-UTS01_ses-5_task-buck_bold.json",
+      "size": 2774,
+      "etag": "a49435e95d271d8bcde3015ccbc624ec"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-5/func/sub-UTS01_ses-5_task-haveyoumethimyet_bold.json",
+      "size": 2778,
+      "etag": "0189a4300ae1decc47c47d53abccdd96"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-5/func/sub-UTS01_ses-5_task-inamoment_bold.json",
+      "size": 2765,
+      "etag": "85bab19c928429b9497f92fb07356975"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-5/func/sub-UTS01_ses-5_task-theclosetthatateeverything_bold.json",
+      "size": 2799,
+      "etag": "82a92bb8d74e4c233f1f9cf2cc5b3fce"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-5/func/sub-UTS01_ses-5_task-wheretheressmoke_run-4_bold.json",
+      "size": 2786,
+      "etag": "6d010cc9f5f573e6de5f63c4a03ef699"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-6/func/sub-UTS01_ses-6_task-eyespy_bold.json",
+      "size": 2758,
+      "etag": "97887766031d1025584c96474a2ff35d"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-6/func/sub-UTS01_ses-6_task-hangtime_bold.json",
+      "size": 2763,
+      "etag": "572c4310e6b7dfc628767e208e0644e2"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-6/func/sub-UTS01_ses-6_task-itsabox_bold.json",
+      "size": 2760,
+      "etag": "421cd10731c9ef2fab1a8589cf803b72"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-6/func/sub-UTS01_ses-6_task-swimmingwithastronauts_bold.json",
+      "size": 2788,
+      "etag": "d29f46c0608962ad14797c2e1d46cd94"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-6/func/sub-UTS01_ses-6_task-thatthingonmyarm_bold.json",
+      "size": 2777,
+      "etag": "351ab570cb36cde8774cd8aa8ac4b18b"
+    },
+    {
+      "key": "ds003020/sub-UTS01/ses-6/func/sub-UTS01_ses-6_task-wheretheressmoke_run-5_bold.json",
+      "size": 2796,
+      "etag": "952c3ff6c06f8f950d1a656d724fab97"
+    }
+  ],
+  "total_bytes": 18124300998
+}

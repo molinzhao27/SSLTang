@@ -1,0 +1,41 @@
+# All paths are relative to the working directory unless absolute/env-expanded.
+data:
+  manifest: data/processed/UTS01/manifest.json
+  window: 32
+  stride: 4
+  num_workers: 8
+model:
+  d_model: 384
+  n_layers: 4
+  n_heads: 8
+  max_length: 128
+  dropout: 0.1
+  ff_multiplier: 4
+training:
+  seed: 17
+  epochs: 30
+  batch_size: 128
+  lr: 0.0003
+  weight_decay: 0.01
+  device: cuda
+  precision: bf16
+  tf32: true
+  compile: false
+  grad_accumulation: 1
+  max_grad_norm: 1.0
+  checkpoint_every_steps: 200
+output_dir: results/runs/ssl_UTS01_seed17
+ssl:
+  mode: temporal
+  target_fraction: 0.25
+  span_length: 8
+  guard_length: 4
+  feature_group_size: 64
+semantic:
+  init: random
+  label_fraction: 1.0
+  subset_seed: 2718
+  lag_tr: 3
+  pooling: end
+  loss: mse
+  pretrained_encoder: results/runs/ssl_UTS01_seed17/encoder_best.pt

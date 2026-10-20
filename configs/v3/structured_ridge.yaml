@@ -1,0 +1,25 @@
+# Protocol v3 structured voxel ridge (experiments/PROTOCOL_V3.md). Grid constants live in
+# src/structured_ridge.py (ETAS, TAUS, BASELINE) and are frozen by the protocol.
+protocol: ssltang-v3
+data:
+  manifest: data/semantic/UTS01/semantic_manifest.json
+  window: 32
+  stride: 4
+  target_phase: 0
+  cutoffs: [3, 4]
+labels:
+  fractions: [1.0, 0.25, 0.1, 0.05, 0.01]
+  subset_seed: 2718
+  block_tr: 64
+  allocation: block
+alphas: [-1, 7, 17]           # numpy.logspace arguments: the v2 grid
+develop_fractions: ['1', '0.1']
+raw_root: data/raw
+cache_root: data/cache/v3
+output_root: results/v3
+lock_file: experiments/v3_lock.json   # written by the lock stage; verified before any test score
+evaluation:
+  exclusions: [10, 32]
+  shift_min_tr: 40
+  shift_draws: 2000
+  shift_seed: 0

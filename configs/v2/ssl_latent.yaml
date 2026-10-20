@@ -1,0 +1,7 @@
+# Phase B latent arm: EMA-teacher latent prediction (experiments/PROTOCOL_V2.md §5).
+extends: ssl_recon.yaml
+ssl:
+  objective: latent
+  ema_start: 0.996
+  ema_end: 1.0
+output_dir: results/v2/ssl/latent_UTS01_seed17

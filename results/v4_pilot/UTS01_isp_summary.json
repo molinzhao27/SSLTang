@@ -1,0 +1,64 @@
+{
+  "target": "UTS01",
+  "stories": [
+    "adollshouse",
+    "adventuresinsayingyes",
+    "buck",
+    "eyespy",
+    "hangtime",
+    "haveyoumethimyet",
+    "howtodraw",
+    "inamoment",
+    "itsabox",
+    "myfirstdaywiththeyankees",
+    "naked",
+    "swimmingwithastronauts",
+    "thatthingonmyarm",
+    "theclosetthatateeverything",
+    "undertheinfluence"
+  ],
+  "n_tr": 5294,
+  "n_voxels": 81126,
+  "components": 100,
+  "references": [
+    "UTS02",
+    "UTS03",
+    "UTS04",
+    "UTS05",
+    "UTS06",
+    "UTS07",
+    "UTS08",
+    "UTS09",
+    "UTS10"
+  ],
+  "alpha": 1000000.0,
+  "alpha_curve": [
+    0.011435112631489237,
+    0.011437456219951512,
+    0.011444858688947757,
+    0.011468181859002436,
+    0.011541099473161764,
+    0.011763845779205997,
+    0.012402949042526788,
+    0.014003994938228768,
+    0.017276480592032524,
+    0.022769232798646705,
+    0.030802727148696356,
+    0.04158737010997529,
+    0.05493622541573077
+  ],
+  "isp_quantiles": {
+    "0.5": 0.04095614506998521,
+    "0.9": 0.1320766026240628,
+    "0.98": 0.22983268913908297,
+    "0.99": 0.2705134695859109
+  },
+  "isp_positive": 0.8836624510021448,
+  "spearman_isp_vs_encoding_max": 0.5394558549937974,
+  "top_overlap": {
+    "0.02": 0.5878003696857671,
+    "0.05": 0.6469428007889546,
+    "0.1": 0.688894367065204
+  },
+  "note": "feasibility pilot; training data only; no decoding endpoint computed"
+}

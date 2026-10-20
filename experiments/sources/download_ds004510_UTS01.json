@@ -1,0 +1,129 @@
+{
+  "dataset": "ds004510",
+  "subject": "UTS01",
+  "mode": "transfer",
+  "source": "https://s3.amazonaws.com/openneuro.org",
+  "objects": [
+    {
+      "key": "ds004510/README",
+      "size": 632,
+      "etag": "b405c8c913bc89540448150c87122ce1"
+    },
+    {
+      "key": "ds004510/dataset_description.json",
+      "size": 503,
+      "etag": "1372f24c6ed7cf4d690943d48a482d26"
+    },
+    {
+      "key": "ds004510/derivative/TextGrids/imagined_speech/alpha.TextGrid",
+      "size": 21301,
+      "etag": "42fe7fff0388b8d0e9f4c6baa54743f3"
+    },
+    {
+      "key": "ds004510/derivative/TextGrids/imagined_speech/bravo.TextGrid",
+      "size": 22018,
+      "etag": "a7218597dc327ca58e40da170a7ea112"
+    },
+    {
+      "key": "ds004510/derivative/TextGrids/imagined_speech/charlie.TextGrid",
+      "size": 24334,
+      "etag": "cb5a68117ecd8d201dc00f07ae983687"
+    },
+    {
+      "key": "ds004510/derivative/TextGrids/imagined_speech/delta.TextGrid",
+      "size": 20774,
+      "etag": "3177f49ee8130b45f49458ed60fe08e9"
+    },
+    {
+      "key": "ds004510/derivative/TextGrids/imagined_speech/echo.TextGrid",
+      "size": 20565,
+      "etag": "908c8de32e98dde0fe2e5dbf18cfe392"
+    },
+    {
+      "key": "ds004510/derivative/TextGrids/perceived_movie/laluna.TextGrid",
+      "size": 139417,
+      "etag": "dea2e8bf74c3dd86e0f3b3a28ac899a2"
+    },
+    {
+      "key": "ds004510/derivative/TextGrids/perceived_movie/partlycloudy.TextGrid",
+      "size": 104486,
+      "etag": "420e2b7a9edf49864352b15936ad7523"
+    },
+    {
+      "key": "ds004510/derivative/TextGrids/perceived_movie/presto.TextGrid",
+      "size": 120845,
+      "etag": "79c814626f4a118aba7b9c430d2978bb"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/alpha_repeat-1.hf5",
+      "size": 19472288,
+      "etag": "f960707008392e6b17cb7e095b73de08"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/alpha_repeat-2.hf5",
+      "size": 19472288,
+      "etag": "e7677d82d21fb4226e39723e8924f8a5"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/bravo_repeat-1.hf5",
+      "size": 19472288,
+      "etag": "78cc20902268a08441285f97767defab"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/bravo_repeat-2.hf5",
+      "size": 19472288,
+      "etag": "6841c09932e71cfaf75f2d645cccaf5a"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/charlie_repeat-1.hf5",
+      "size": 19472288,
+      "etag": "db5a7c0a757d0934cbd99f05b058ecca"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/charlie_repeat-2.hf5",
+      "size": 19472288,
+      "etag": "87a98a210b60823b9c0d7989a60412ac"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/delta_repeat-1.hf5",
+      "size": 19472288,
+      "etag": "789357be1a73ba5004661426a8e7c330"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/delta_repeat-2.hf5",
+      "size": 19472288,
+      "etag": "6abcfa8e8fd24bf45757fda367bb275b"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/echo_repeat-1.hf5",
+      "size": 19472288,
+      "etag": "b51404c9d62f85eb4bb87c52aa84034c"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/imagined_speech/echo_repeat-2.hf5",
+      "size": 19472288,
+      "etag": "4f99f1c76da7cba7befb245775a97153"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/perceived_movie/laluna.hf5",
+      "size": 113578448,
+      "etag": "52f690a314c78a53713952c51fef9284"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/perceived_movie/partlycloudy.hf5",
+      "size": 91512176,
+      "etag": "ce1e4b079dc6ea43feec3ac83785b7f7"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/perceived_movie/presto.hf5",
+      "size": 82426064,
+      "etag": "50bcb94dd8c55fa2e61cf220c8951d56"
+    },
+    {
+      "key": "ds004510/derivative/preprocessed_data/UTS01/perceived_movie/sintel.hf5",
+      "size": 87618128,
+      "etag": "77845871637721df82628746f8f90f91"
+    }
+  ],
+  "total_bytes": 570332571
+}

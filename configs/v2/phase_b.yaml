@@ -1,0 +1,8 @@
+# Phase B frozen readout: Phase A's ridge procedure on final-update student encoders.
+extends: phase_a.yaml
+encoders:
+  random_arm: null
+  sources:
+    recon_final: [R, "results/v2/ssl/recon_UTS01_seed{seed}/encoder_latest.pt"]
+    latent_final: [L, "results/v2/ssl/latent_UTS01_seed{seed}/encoder_latest.pt"]
+output_dir: results/v2/phase_b

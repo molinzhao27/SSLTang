@@ -1,0 +1,121 @@
+{
+  "protocol": "ssltang-v4",
+  "stage": "g4",
+  "code_sha256": "62af1e82ceae3a050c99f28e1764c6820ec7a973d7232da018a7590b1778f607",
+  "data_sha256": "4d352efe19062f11698340d233e0c3d48c034c8f5d90b226b801e993cc995212",
+  "dev": [
+    "sub-EN061",
+    "sub-EN083",
+    "sub-EN096",
+    "sub-EN101",
+    "sub-EN100",
+    "sub-EN105",
+    "sub-EN089",
+    "sub-EN063",
+    "sub-EN059"
+  ],
+  "created_utc": "2026-10-07T16:46:15+00:00",
+  "b": {
+    "subjects": {
+      "sub-EN061": {
+        "observed": 0.07577343171892663,
+        "null_q95": 0.004021610164361865,
+        "passed": true
+      },
+      "sub-EN083": {
+        "observed": 0.11280282004710379,
+        "null_q95": 0.004183328080779044,
+        "passed": true
+      },
+      "sub-EN096": {
+        "observed": 0.07930919668818846,
+        "null_q95": 0.0038354370010072318,
+        "passed": true
+      },
+      "sub-EN101": {
+        "observed": 0.08863396981984634,
+        "null_q95": 0.005399120245321891,
+        "passed": true
+      },
+      "sub-EN100": {
+        "observed": 0.10376229227492638,
+        "null_q95": 0.0051075325542391595,
+        "passed": true
+      },
+      "sub-EN105": {
+        "observed": 0.07663359561679745,
+        "null_q95": 0.005315892973840639,
+        "passed": true
+      },
+      "sub-EN089": {
+        "observed": 0.04355510520870535,
+        "null_q95": 0.0071207252915839086,
+        "passed": true
+      },
+      "sub-EN063": {
+        "observed": 0.13055914620503434,
+        "null_q95": 0.0034730117331537654,
+        "passed": true
+      },
+      "sub-EN059": {
+        "observed": 0.0998254850393068,
+        "null_q95": 0.004873405820149399,
+        "passed": true
+      }
+    },
+    "n_passed": 9,
+    "required": 6,
+    "passed": true
+  },
+  "c": {
+    "subjects": {
+      "sub-EN061": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      },
+      "sub-EN083": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      },
+      "sub-EN096": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      },
+      "sub-EN101": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      },
+      "sub-EN100": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      },
+      "sub-EN105": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      },
+      "sub-EN089": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      },
+      "sub-EN063": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      },
+      "sub-EN059": {
+        "n_fits": 171,
+        "n_at_edge": 0,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "passed": true
+}

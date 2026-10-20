@@ -1,0 +1,6 @@
+subject,fraction,n_sessions,session_macro_delta_correlation,session_bootstrap_low,session_bootstrap_high,warning
+UTS01,0.01,2,0.0012662580093116675,6.112055705868787e-05,0.002471395461564647,"Few test sessions; descriptive interval only, not a population claim."
+UTS01,0.05,2,0.0020538853240262846,0.001617355695796831,0.002490414952255738,"Few test sessions; descriptive interval only, not a population claim."
+UTS01,0.1,2,0.0021645862498393216,0.001615009567859117,0.0027141629318195265,"Few test sessions; descriptive interval only, not a population claim."
+UTS01,0.25,2,0.00403693368451989,0.003414575843225635,0.004659291525814144,"Few test sessions; descriptive interval only, not a population claim."
+UTS01,1.0,2,0.01609874254149775,0.01510623092697621,0.017091254156019288,"Few test sessions; descriptive interval only, not a population claim."
